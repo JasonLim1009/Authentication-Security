@@ -1,0 +1,109 @@
+// 377 Level 1 - Username and Password only
+npm init -y
+npm i express ejs body-parser
+nodemon app.js
+
+
+
+// 378
+connect Studio 3T
+localhost:27017
+userDB
+  - Collections
+    - users
+    - Open Collections Tab
+
+
+
+// 380 Level 2 - Encryption
+npm i mongoose-encryption
+nodemon app.js
+
+
+
+// 381 
+touch .env
+	SECRET=Thisisourlittlesecret.
+	API_KEY=asdhohqwidnoicasnicoqasd
+touch .gitignore
+https://github.com/github/gitignore/blob/main/Node.gitignore
+copy n paste to .gitignore files
+
+git add .
+git commit -m 'Add Environment Vars'
+git push -u origin master
+------------------------------------
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/JasonLim1009/Authentication-Security.git
+git push -u origin main
+------------------------------------
+
+// 382 Level 3 - Hashing Passwords
+Encryption
+Password + Key (Clipher Method)---> Cliphertext
+
+Decryption
+Password <---(Clipher Method) Key + Cliphertext
+
+Hashing
+Password + Key (Hash Function)---> Hash
+
+
+
+// 384 Level 4 - Salting and Hashing Passwords with bcrypt
+Salting
+Password + Salt (Hash Function)---> Hash
+qwerty + 123456 (Hash Function)---> Hash
+
+Salt Rounds
+Password + Salt (Hash Function)---> Hash ---> Hash + Salt (Hash Function)---> Hash
+
+
+MD5 破解无需3sec...
+bcrypt 破解需要可能8个月以上...
+
+node --version
+- https://github.com/nvm-sh/nvm
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.39.1/install.sh | bash
+copy n paste to hyper
+
+nvm --version
+- File > New Tab
+	nvm install 16.17.0 
+npm i bcrypt
+npm i bcrypt@5.0.1
+nodemon app.js
+
+login localhost website
+connect Studio 3T
+- localhost:27017
+  - Refresh View
+
+
+
+// 385 Level 5 - Cookies & Sessions
+npm i passport passport-local passport-local-mongoose express-session
+
+- Serialise
+- Deserialise
+
+nodemon app.js
+
+
+
+// 387 Level 6 - OAuth(Open Authorisation)
+npm install passport-google-oauth20
+
+https://console.cloud.google.com/apis/dashboard
+create 
+
+npm install mongoose-findorcreate
+
+
+
+
+
+
